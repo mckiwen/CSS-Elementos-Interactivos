@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos interactivos con CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.0-web/css/all.css">
+</head>
+
+<body>
+    <header>
+        <button type="button"  class="menu-icon fa-solid fa-bars" id="menu-icon"></button>
+        <h1>Interactive Website</h1>
+        <div class="switch" id="switch">
+            <div class="switch-1" id="switch-1"></div>
+        </div>
+    </header>
+    <aside id="menu">
+        <ul>
+            <li><a href="#">Enlace1</a></li>
+            <li><a href="#">Enlace2</a></li>
+            <li><a href="#">Enlace3</a></li>
+            <li><a href="#">Enlace4</a></li>
+            <li><a href="#">Enlace5</a></li>
+        </ul>
+    </aside>
+    <div class="main-opacity" id="main-opacity"></div>
+    <main>
+        <div class="first" id="first">
+            <h3>¿Desea conocer las novedades del 7º arte?</h3>
+            <div>
+                <input class="checkbox" type="checkbox" id="checkbox">
+                <label for="checkbox"> Sí a todo.</label>
+            </div>
+            <button type="button" id="adelante" disabled>
+                <h2>¡Adelante!</h2>
+            </button>
+        </div>
+        <div class="second" id="second">
+            <div class="spinner"></div>
+        </div>
+        <div class="third" id="third">
+            <h3>Cartelera de cine</h3>
+            <div class="accordion-container">
+                <div class="accordion" id="accordion-1">
+                    <button class="accordion-title" id="accordion-1-title">
+                        <h3>Lo más popular</h3>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="accordion-content" id="accordion-1-content">
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordion-2">
+                    <button class="accordion-title" id="accordion-2-title">
+                        <h3>Animación</h3>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="accordion-content" id="accordion-2-content">
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordion-3">
+                    <button class="accordion-title" id="accordion-3-title">
+                        <h3>Sagas</h3>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="accordion-content" id="accordion-3-content">
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                        <div class="image">
+                            <div class="cartel-trailer"><h2>Ver Trailer</h2></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
